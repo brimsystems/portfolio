@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data from the NYC Taxi and Limousine Commission (TLC) Trip Record Data"
+    database: ny-taxi-490622
+    schema: ny_taxi
+    tables: 
+      - name: yellow_tripdata 
+        description: "Yellow taxi trip data, which includes trips taken in yellow taxis in New York City. This dataset contains information about the pickup and dropoff locations, timestamps, trip distances, and fare amounts for each trip."
+      - name: green_tripdata
+        description: "Green taxi trip data, which includes trips taken in green taxis in New York City. This dataset contains similar information to the yellow taxi data, such as pickup and dropoff locations, timestamps, trip distances, and fare amounts for each trip."
